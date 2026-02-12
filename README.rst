@@ -27,6 +27,13 @@ Alternatively it can be installed with Python's pip package manager:
 
    $ sudo pip install Sphinx
 
+For convenience, this repository also provides a ``requirements.txt`` file
+with the required Python packages, so you can install everything in one step:
+
+.. code-block:: bash
+
+   $ pip install -r requirements.txt
+
 There are a couple of extra dependencies you will also need to build the Markdown parts of the documentation:
 
 .. code-block:: bash
